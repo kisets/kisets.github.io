@@ -128,3 +128,48 @@ p {
 .post-container:nth-child(even) {
   background-color: lightgray;
 }
+
+
+
+
+input, textarea {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 500px;
+  height: 30px;
+  font-family: Verdana;
+  font-size: 15px;
+  border-style: solid;
+}
+textarea {
+  height: 100px;
+  resize: none;
+}
+button {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  border-style: solid;
+  background: white;
+}
+button:active {
+  text-decoration: none;
+}
+button:hover {
+  background-color: gray;
+  color: white;
+}
+.contact {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
